@@ -1,0 +1,167 @@
+<svg width="1792" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0E16;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E0E16;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7A5FFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C6A0FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFC2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Flower of Life gradient - Myk, pastell, iridescent -->
+    <linearGradient id="flowerGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB" stop-opacity="0.9" />
+      <stop offset="20%" stop-color="#7DD3FC" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#60C5B5" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#FBCFE8" stop-opacity="0.75" />
+      <stop offset="80%" stop-color="#FED7AA" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0.65" />
+    </linearGradient>
+    
+    <!-- Outer circle gradient -->
+    <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBCFE8" stop-opacity="0.9" />
+      <stop offset="20%" stop-color="#FED7AA" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#FEF08A" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#86EFAC" stop-opacity="0.75" />
+      <stop offset="80%" stop-color="#7DD3FC" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0.65" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Soft blur filter -->
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7A5FFF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1792" height="1024" fill="url(#bgGradient)"/>
+  <rect width="1792" height="1024" fill="url(#grid)"/>
+  
+  <!-- Holographic graph lines (data visualizations) -->
+  <g opacity="0.6">
+    <!-- Line graphs -->
+    <path d="M 100 800 Q 300 600, 500 700 T 900 650 T 1300 600 T 1700 550" 
+          fill="none" stroke="#7A5FFF" stroke-width="3" filter="url(#glow)"/>
+    <path d="M 100 850 Q 300 750, 500 800 T 900 750 T 1300 700 T 1700 650" 
+          fill="none" stroke="#00FFC2" stroke-width="2" filter="url(#glow)"/>
+    <path d="M 100 750 Q 300 550, 500 650 T 900 600 T 1300 550 T 1700 500" 
+          fill="none" stroke="#C6A0FF" stroke-width="2" filter="url(#glow)"/>
+    
+    <!-- Bar charts -->
+    <rect x="200" y="700" width="30" height="100" fill="#7A5FFF" opacity="0.4" filter="url(#glow)"/>
+    <rect x="250" y="650" width="30" height="150" fill="#00FFC2" opacity="0.4" filter="url(#glow)"/>
+    <rect x="300" y="720" width="30" height="80" fill="#C6A0FF" opacity="0.4" filter="url(#glow)"/>
+    <rect x="350" y="680" width="30" height="120" fill="#7A5FFF" opacity="0.4" filter="url(#glow)"/>
+    
+    <rect x="1400" y="680" width="30" height="120" fill="#7A5FFF" opacity="0.4" filter="url(#glow)"/>
+    <rect x="1450" y="650" width="30" height="150" fill="#00FFC2" opacity="0.4" filter="url(#glow)"/>
+    <rect x="1500" y="700" width="30" height="100" fill="#C6A0FF" opacity="0.4" filter="url(#glow)"/>
+    <rect x="1550" y="720" width="30" height="80" fill="#7A5FFF" opacity="0.4" filter="url(#glow)"/>
+    
+    <!-- Network/flow diagrams -->
+    <circle cx="400" cy="200" r="8" fill="#7A5FFF" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="500" cy="180" r="8" fill="#00FFC2" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="600" cy="220" r="8" fill="#C6A0FF" opacity="0.5" filter="url(#glow)"/>
+    <line x1="400" y1="200" x2="500" y2="180" stroke="#7A5FFF" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+    <line x1="500" y1="180" x2="600" y2="220" stroke="#00FFC2" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+    
+    <circle cx="1200" cy="200" r="8" fill="#7A5FFF" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="1300" cy="180" r="8" fill="#00FFC2" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="1400" cy="220" r="8" fill="#C6A0FF" opacity="0.5" filter="url(#glow)"/>
+    <line x1="1200" y1="200" x2="1300" y2="180" stroke="#7A5FFF" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+    <line x1="1300" y1="180" x2="1400" y2="220" stroke="#00FFC2" stroke-width="2" opacity="0.3" filter="url(#glow)"/>
+    
+    <!-- Donut charts -->
+    <circle cx="250" cy="300" r="40" fill="none" stroke="#7A5FFF" stroke-width="8" opacity="0.4" filter="url(#glow)"/>
+    <circle cx="250" cy="300" r="30" fill="none" stroke="#00FFC2" stroke-width="6" opacity="0.4" filter="url(#glow)"/>
+    
+    <circle cx="1550" cy="300" r="40" fill="none" stroke="#7A5FFF" stroke-width="8" opacity="0.4" filter="url(#glow)"/>
+    <circle cx="1550" cy="300" r="30" fill="none" stroke="#00FFC2" stroke-width="6" opacity="0.4" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Flower of Life Logo (Nora Avatar) - Centered at top -->
+  <g transform="translate(896, 150)">
+    <!-- Sentrum sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="40"
+      fill="none"
+      stroke="url(#flowerGradient)"
+      stroke-width="3"
+      opacity="0.9"
+      filter="url(#softBlur)"
+    />
+    
+    <!-- 6 sirkler rundt sentrum -->
+    <g>
+      <circle cx="0" cy="-40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+      <circle cx="34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+      <circle cx="34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+      <circle cx="0" cy="40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+      <circle cx="-34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+      <circle cx="-34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    </g>
+    
+    <!-- Ytre sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="100"
+      fill="none"
+      stroke="url(#outerGradient)"
+      stroke-width="4"
+      opacity="0.9"
+      filter="url(#glow)"
+    />
+  </g>
+  
+  <!-- Main Title -->
+  <text x="896" y="380" font-family="Arial, sans-serif" font-size="72" font-weight="bold" 
+        text-anchor="middle" fill="url(#textGradient)" filter="url(#glow)">
+    NORA AI
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="896" y="460" font-family="Arial, sans-serif" font-size="32" 
+        text-anchor="middle" fill="#C6A0FF" opacity="0.9">
+    Intelligent DevOps Platform
+  </text>
+  
+  <!-- By line -->
+  <text x="896" y="520" font-family="Arial, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#7A5FFF" opacity="0.7">
+    by Cato Hansen
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="300" cy="200" r="3" fill="#00FFC2" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="1400" cy="250" r="3" fill="#7A5FFF" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="200" cy="700" r="3" fill="#C6A0FF" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="1500" cy="750" r="3" fill="#00FFC2" opacity="0.6" filter="url(#glow)"/>
+</svg>
