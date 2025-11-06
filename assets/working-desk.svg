@@ -1,0 +1,161 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Working desk scene with Flower of Life logo -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0E16;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E0E16;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Flower of Life gradient -->
+    <linearGradient id="flowerGradient2" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#7DD3FC;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#60C5B5;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#FBCFE8;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#FED7AA;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Outer circle gradient -->
+    <linearGradient id="outerGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBCFE8;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#FED7AA;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#FEF08A;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#86EFAC;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#7DD3FC;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Soft blur filter -->
+    <filter id="softBlur2">
+      <feGaussianBlur stdDeviation="0.8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid2" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#7A5FFF" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient2)"/>
+  <rect width="1200" height="630" fill="url(#grid2)"/>
+  
+  <!-- Desk (bottom section) -->
+  <rect x="0" y="450" width="1200" height="180" fill="#1A1A28" opacity="0.8"/>
+  
+  <!-- Person silhouette (seated at desk) -->
+  <g transform="translate(600, 400)">
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="25" fill="#2A2A3A" opacity="0.9"/>
+    <!-- Body (torso) -->
+    <rect x="-30" y="-50" width="60" height="80" rx="5" fill="#2A2A3A" opacity="0.9"/>
+    <!-- Arms -->
+    <rect x="-40" y="-30" width="20" height="60" rx="10" fill="#2A2A3A" opacity="0.9"/>
+    <rect x="20" y="-30" width="20" height="60" rx="10" fill="#2A2A3A" opacity="0.9"/>
+  </g>
+  
+  <!-- Desk screens with data visualizations -->
+  <g opacity="0.6">
+    <!-- Main screen (center) -->
+    <rect x="400" y="200" width="400" height="250" fill="#0E0E16" stroke="#7A5FFF" stroke-width="2" opacity="0.8" rx="5"/>
+    <!-- Line graph on main screen -->
+    <path d="M 450 400 Q 500 350, 550 380 T 650 360 T 750 340 T 750 300" 
+          fill="none" stroke="#7A5FFF" stroke-width="3" filter="url(#glow2)"/>
+    <path d="M 450 420 Q 500 380, 550 400 T 650 380 T 750 360 T 750 320" 
+          fill="none" stroke="#00FFC2" stroke-width="2" filter="url(#glow2)"/>
+    <!-- Grid lines on screen -->
+    <line x1="450" y1="300" x2="750" y2="300" stroke="#7A5FFF" stroke-width="0.5" opacity="0.3"/>
+    <line x1="450" y1="350" x2="750" y2="350" stroke="#7A5FFF" stroke-width="0.5" opacity="0.3"/>
+    <line x1="450" y1="400" x2="750" y2="400" stroke="#7A5FFF" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Side screens -->
+    <rect x="100" y="250" width="200" height="150" fill="#0E0E16" stroke="#7A5FFF" stroke-width="1.5" opacity="0.7" rx="3"/>
+    <!-- Bar chart on side screen -->
+    <rect x="130" y="350" width="20" height="40" fill="#7A5FFF" opacity="0.4" filter="url(#glow2)"/>
+    <rect x="160" y="330" width="20" height="60" fill="#00FFC2" opacity="0.4" filter="url(#glow2)"/>
+    <rect x="190" y="340" width="20" height="50" fill="#C6A0FF" opacity="0.4" filter="url(#glow2)"/>
+    
+    <rect x="900" y="250" width="200" height="150" fill="#0E0E16" stroke="#7A5FFF" stroke-width="1.5" opacity="0.7" rx="3"/>
+    <!-- Network diagram on side screen -->
+    <circle cx="1000" cy="300" r="8" fill="#7A5FFF" opacity="0.5" filter="url(#glow2)"/>
+    <circle cx="1050" cy="280" r="8" fill="#00FFC2" opacity="0.5" filter="url(#glow2)"/>
+    <circle cx="1100" cy="320" r="8" fill="#C6A0FF" opacity="0.5" filter="url(#glow2)"/>
+    <line x1="1000" y1="300" x2="1050" y2="280" stroke="#7A5FFF" stroke-width="2" opacity="0.3" filter="url(#glow2)"/>
+    <line x1="1050" y1="280" x2="1100" y2="320" stroke="#00FFC2" stroke-width="2" opacity="0.3" filter="url(#glow2)"/>
+  </g>
+  
+  <!-- Wall screens with data visualizations (background) -->
+  <g opacity="0.4">
+    <!-- Left wall screen -->
+    <rect x="50" y="50" width="150" height="100" fill="#0E0E16" stroke="#7A5FFF" stroke-width="1" opacity="0.6" rx="3"/>
+    <path d="M 80 120 Q 100 100, 120 110 T 160 105" 
+          fill="none" stroke="#7A5FFF" stroke-width="2" filter="url(#glow2)"/>
+    
+    <!-- Right wall screen -->
+    <rect x="1000" y="50" width="150" height="100" fill="#0E0E16" stroke="#7A5FFF" stroke-width="1" opacity="0.6" rx="3"/>
+    <circle cx="1075" cy="100" r="30" fill="none" stroke="#7A5FFF" stroke-width="4" opacity="0.4" filter="url(#glow2)"/>
+    <circle cx="1075" cy="100" r="20" fill="none" stroke="#00FFC2" stroke-width="3" opacity="0.4" filter="url(#glow2)"/>
+  </g>
+  
+  <!-- Flower of Life Logo (Nora Avatar) - Top right corner -->
+  <g transform="translate(1050, 80)">
+    <!-- Sentrum sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="20"
+      fill="none"
+      stroke="url(#flowerGradient2)"
+      stroke-width="2"
+      opacity="0.9"
+      filter="url(#softBlur2)"
+    />
+    
+    <!-- 6 sirkler rundt sentrum -->
+    <circle cx="0" cy="-20" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    <circle cx="17.32" cy="-10" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    <circle cx="17.32" cy="10" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    <circle cx="0" cy="20" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    <circle cx="-17.32" cy="10" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    <circle cx="-17.32" cy="-10" r="20" fill="none" stroke="url(#flowerGradient2)" stroke-width="2" opacity="0.9" filter="url(#softBlur2)"/>
+    
+    <!-- Ytre sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="50"
+      fill="none"
+      stroke="url(#outerGradient2)"
+      stroke-width="2.5"
+      opacity="0.9"
+      filter="url(#glow2)"
+    />
+  </g>
+  
+  <!-- Text overlay (bottom right) -->
+  <text x="1050" y="580" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="end" fill="#7A5FFF" opacity="0.8" filter="url(#glow2)">
+    NORA AI
+  </text>
+  <text x="1050" y="605" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="end" fill="#C6A0FF" opacity="0.6">
+    Intelligent DevOps Platform
+  </text>
+</svg>
+

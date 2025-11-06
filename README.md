@@ -5,7 +5,7 @@
 > AI-drevet DevOps, sikkerhetsarkitektur og selvhelbredende infrastruktur.  
 > Utviklet av **Cato Hansen**, System Architect & Founder.
 
-![Nora AI Banner](assets/banner.png)
+![Nora AI Banner](assets/banner-optimized.svg)
 
 ---
 
@@ -101,6 +101,22 @@ All programvare tilhører **© 2025 Cato Hansen.**
 - [ARCHITECTURE.md](ARCHITECTURE.md) – Systemarkitektur og teknisk oversikt
 - [FEATURES.md](FEATURES.md) – Detaljert funksjonsoversikt
 - [LICENSE](LICENSE) – Showcase License
+
+---
+
+## 🎨 Visuell Oversikt
+
+### Deployment Center Dashboard
+
+![Deployment Center](assets/control-room.svg)
+
+*Sanntids monitoring og kontroll av DevOps-pipeline*
+
+### Development Workspace
+
+![Development Workspace](assets/working-desk.svg)
+
+*AI-drevet utviklingsmiljø med intelligent analyse*
 
 ---
 

@@ -1,0 +1,137 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Optimal size for GitHub README: 1200x630 (social preview) -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0E16;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E0E16;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7A5FFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C6A0FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFC2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Flower of Life gradient -->
+    <linearGradient id="flowerGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#7DD3FC;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#60C5B5;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#FBCFE8;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#FED7AA;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Outer circle gradient -->
+    <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBCFE8;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#FED7AA;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#FEF08A;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#86EFAC;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#7DD3FC;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Soft blur filter -->
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="0.8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#7A5FFF" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Holographic graph lines (data visualizations) -->
+  <g opacity="0.5">
+    <!-- Line graphs -->
+    <path d="M 50 500 Q 200 400, 350 450 T 650 420 T 950 380 T 1150 350" 
+          fill="none" stroke="#7A5FFF" stroke-width="2" filter="url(#glow)"/>
+    <path d="M 50 530 Q 200 450, 350 500 T 650 470 T 950 430 T 1150 400" 
+          fill="none" stroke="#00FFC2" stroke-width="1.5" filter="url(#glow)"/>
+    
+    <!-- Bar charts -->
+    <rect x="100" y="450" width="20" height="80" fill="#7A5FFF" opacity="0.3" filter="url(#glow)"/>
+    <rect x="130" y="420" width="20" height="110" fill="#00FFC2" opacity="0.3" filter="url(#glow)"/>
+    <rect x="160" y="480" width="20" height="50" fill="#C6A0FF" opacity="0.3" filter="url(#glow)"/>
+    
+    <rect x="1000" y="420" width="20" height="110" fill="#7A5FFF" opacity="0.3" filter="url(#glow)"/>
+    <rect x="1030" y="400" width="20" height="130" fill="#00FFC2" opacity="0.3" filter="url(#glow)"/>
+    <rect x="1060" y="450" width="20" height="80" fill="#C6A0FF" opacity="0.3" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Flower of Life Logo (Nora Avatar) - Centered at top -->
+  <g transform="translate(600, 100)">
+    <!-- Sentrum sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="30"
+      fill="none"
+      stroke="url(#flowerGradient)"
+      stroke-width="2.5"
+      opacity="0.9"
+      filter="url(#softBlur)"
+    />
+    
+    <!-- 6 sirkler rundt sentrum -->
+    <circle cx="0" cy="-30" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="26" cy="-15" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="26" cy="15" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="0" cy="30" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="-26" cy="15" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="-26" cy="-15" r="30" fill="none" stroke="url(#flowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#softBlur)"/>
+    
+    <!-- Ytre sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="75"
+      fill="none"
+      stroke="url(#outerGradient)"
+      stroke-width="3"
+      opacity="0.9"
+      filter="url(#glow)"
+    />
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="56" font-weight="bold" 
+        text-anchor="middle" fill="url(#textGradient)" filter="url(#glow)">
+    NORA AI
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="24" 
+        text-anchor="middle" fill="#C6A0FF" opacity="0.9">
+    Intelligent DevOps Platform
+  </text>
+  
+  <!-- By line -->
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="18" 
+        text-anchor="middle" fill="#7A5FFF" opacity="0.7">
+    by Cato Hansen
+  </text>
+</svg>
+
