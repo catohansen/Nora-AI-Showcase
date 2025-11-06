@@ -1,0 +1,188 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Hero Banner for Nora AI Showcase - Based on landing page design -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="heroBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E0E16;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A28;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E0E16;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient (purple to green) -->
+    <linearGradient id="heroTextGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7A5FFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C6A0FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFC2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Flower of Life gradient -->
+    <linearGradient id="heroFlowerGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#7DD3FC;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#60C5B5;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#FBCFE8;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#FED7AA;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Outer circle gradient -->
+    <linearGradient id="heroOuterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBCFE8;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#FED7AA;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#FEF08A;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#86EFAC;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#7DD3FC;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="heroGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Soft blur filter -->
+    <filter id="heroSoftBlur">
+      <feGaussianBlur stdDeviation="0.8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid pattern -->
+    <pattern id="heroGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#7A5FFF" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#heroBgGradient)"/>
+  <rect width="1200" height="630" fill="url(#heroGrid)"/>
+  
+  <!-- Neural network / constellation pattern (background) -->
+  <g opacity="0.4">
+    <!-- Interconnected dots and lines -->
+    <circle cx="200" cy="150" r="3" fill="#7A5FFF" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="300" cy="120" r="3" fill="#00FFC2" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="400" cy="180" r="3" fill="#C6A0FF" opacity="0.6" filter="url(#heroGlow)"/>
+    <line x1="200" y1="150" x2="300" y2="120" stroke="#7A5FFF" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+    <line x1="300" y1="120" x2="400" y2="180" stroke="#00FFC2" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+    
+    <circle cx="800" cy="150" r="3" fill="#7A5FFF" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="900" cy="120" r="3" fill="#00FFC2" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="1000" cy="180" r="3" fill="#C6A0FF" opacity="0.6" filter="url(#heroGlow)"/>
+    <line x1="800" y1="150" x2="900" y2="120" stroke="#7A5FFF" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+    <line x1="900" y1="120" x2="1000" y2="180" stroke="#00FFC2" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+    
+    <circle cx="500" cy="450" r="3" fill="#7A5FFF" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="600" cy="420" r="3" fill="#00FFC2" opacity="0.6" filter="url(#heroGlow)"/>
+    <circle cx="700" cy="480" r="3" fill="#C6A0FF" opacity="0.6" filter="url(#heroGlow)"/>
+    <line x1="500" y1="450" x2="600" y2="420" stroke="#7A5FFF" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+    <line x1="600" y1="420" x2="700" y2="480" stroke="#00FFC2" stroke-width="1" opacity="0.3" filter="url(#heroGlow)"/>
+  </g>
+  
+  <!-- Flower of Life Logo (Nora Avatar) - Centered at top -->
+  <g transform="translate(600, 100)">
+    <!-- Sentrum sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="30"
+      fill="none"
+      stroke="url(#heroFlowerGradient)"
+      stroke-width="2.5"
+      opacity="0.9"
+      filter="url(#heroSoftBlur)"
+    />
+    
+    <!-- 6 sirkler rundt sentrum -->
+    <circle cx="0" cy="-30" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    <circle cx="26" cy="-15" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    <circle cx="26" cy="15" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    <circle cx="0" cy="30" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    <circle cx="-26" cy="15" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    <circle cx="-26" cy="-15" r="30" fill="none" stroke="url(#heroFlowerGradient)" stroke-width="2.5" opacity="0.9" filter="url(#heroSoftBlur)"/>
+    
+    <!-- Ytre sirkel -->
+    <circle
+      cx="0"
+      cy="0"
+      r="75"
+      fill="none"
+      stroke="url(#heroOuterGradient)"
+      stroke-width="3"
+      opacity="0.9"
+      filter="url(#heroGlow)"
+    />
+  </g>
+  
+  <!-- Main Title: "Nora AI" -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="64" font-weight="bold" 
+        text-anchor="middle" fill="url(#heroTextGradient)" filter="url(#heroGlow)">
+    Nora AI
+  </text>
+  
+  <!-- Tagline: "The Living Mind Behind" -->
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
+        text-anchor="middle" fill="url(#heroTextGradient)" opacity="0.9" filter="url(#heroGlow)">
+    The Living Mind Behind
+  </text>
+  
+  <!-- Norwegian Description -->
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="20" 
+        text-anchor="middle" fill="#FFFFFF" opacity="0.9">
+    Intelligent, emosjonell og levende AI-assistent bygget for ekte samarbeid.
+  </text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="18" 
+        text-anchor="middle" fill="#FFFFFF" opacity="0.8">
+    Mer enn en assistent — <tspan fill="#00FFC2" font-weight="bold">en partner i utvikling og vekst.</tspan>
+  </text>
+  
+  <!-- English Description -->
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#FFFFFF" opacity="0.7">
+    Revolutionary AI that understands context, emotions, and intent
+  </text>
+  <text x="600" y="435" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#FFFFFF" opacity="0.7">
+    — more advanced than Siri, Alexa, and Google Assistant.
+  </text>
+  
+  <!-- Attribution -->
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="#FFFFFF" opacity="0.6">
+    Created in <tspan fill="#00FFC2" font-weight="bold">Drøbak, Norway</tspan> — by <tspan fill="#00FFC2" font-weight="bold">System Architect Cato Hansen</tspan>
+  </text>
+  
+  <!-- Feature List (bottom) -->
+  <g transform="translate(600, 560)">
+    <!-- Feature 1: 7+ AI-agenter -->
+    <g transform="translate(-200, 0)">
+      <circle cx="0" cy="0" r="6" fill="#00FFC2" opacity="0.8"/>
+      <text x="15" y="5" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.8">
+        7+ AI-agenter
+      </text>
+    </g>
+    
+    <!-- Feature 2: Multi-provider support -->
+    <g transform="translate(0, 0)">
+      <circle cx="0" cy="0" r="6" fill="#00FFC2" opacity="0.8"/>
+      <text x="15" y="5" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.8">
+        Multi-provider support
+      </text>
+    </g>
+    
+    <!-- Feature 3: Enterprise-grade -->
+    <g transform="translate(200, 0)">
+      <circle cx="0" cy="0" r="6" fill="#00FFC2" opacity="0.8"/>
+      <text x="15" y="5" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.8">
+        Enterprise-grade
+      </text>
+    </g>
+  </g>
+</svg>
+

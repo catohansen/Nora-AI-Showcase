@@ -5,7 +5,7 @@
 > AI-drevet DevOps, sikkerhetsarkitektur og selvhelbredende infrastruktur.  
 > Utviklet av **Cato Hansen**, System Architect & Founder.
 
-![Nora AI Banner](assets/banner-optimized.png)
+![Nora AI Hero Banner](assets/hero-banner.png)
 
 ---
 
