@@ -1,4 +1,4 @@
-<svg width="1792" height="1024" xmlns="http://www.w3.org/2000/svg">
+<svg width="1792" height="1024" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1024">
   <defs>
     <!-- Background gradient -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -14,24 +14,24 @@
       <stop offset="100%" style="stop-color:#00FFC2;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Flower of Life gradient - Myk, pastell, iridescent -->
+    <!-- Flower of Life gradient -->
     <linearGradient id="flowerGradient" x1="50%" y1="0%" x2="50%" y2="100%">
-      <stop offset="0%" stop-color="#87CEEB" stop-opacity="0.9" />
-      <stop offset="20%" stop-color="#7DD3FC" stop-opacity="0.85" />
-      <stop offset="40%" stop-color="#60C5B5" stop-opacity="0.8" />
-      <stop offset="60%" stop-color="#FBCFE8" stop-opacity="0.75" />
-      <stop offset="80%" stop-color="#FED7AA" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0.65" />
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#7DD3FC;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#60C5B5;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#FBCFE8;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#FED7AA;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
     </linearGradient>
     
     <!-- Outer circle gradient -->
     <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FBCFE8" stop-opacity="0.9" />
-      <stop offset="20%" stop-color="#FED7AA" stop-opacity="0.85" />
-      <stop offset="40%" stop-color="#FEF08A" stop-opacity="0.8" />
-      <stop offset="60%" stop-color="#86EFAC" stop-opacity="0.75" />
-      <stop offset="80%" stop-color="#7DD3FC" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0.65" />
+      <stop offset="0%" style="stop-color:#FBCFE8;stop-opacity:0.9" />
+      <stop offset="20%" style="stop-color:#FED7AA;stop-opacity:0.85" />
+      <stop offset="40%" style="stop-color:#FEF08A;stop-opacity:0.8" />
+      <stop offset="60%" style="stop-color:#86EFAC;stop-opacity:0.75" />
+      <stop offset="80%" style="stop-color:#7DD3FC;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#BFDBFE;stop-opacity:0.65" />
     </linearGradient>
     
     <!-- Glow filter -->
@@ -119,14 +119,12 @@
     />
     
     <!-- 6 sirkler rundt sentrum -->
-    <g>
-      <circle cx="0" cy="-40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-      <circle cx="34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-      <circle cx="34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-      <circle cx="0" cy="40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-      <circle cx="-34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-      <circle cx="-34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
-    </g>
+    <circle cx="0" cy="-40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="0" cy="40" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="-34.64" cy="20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
+    <circle cx="-34.64" cy="-20" r="40" fill="none" stroke="url(#flowerGradient)" stroke-width="3" opacity="0.9" filter="url(#softBlur)"/>
     
     <!-- Ytre sirkel -->
     <circle
