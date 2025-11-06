@@ -15,24 +15,24 @@
 
 Systemet bygger, deployer, overvåker og forbedrer seg selv – alt i sanntid.
 
-🧠 **AI Deploy Advisor** – analyserer endringer, vurderer risiko og anbefaler optimalt deploy-tidspunkt.  
+🧠 **AI Deploy Advisor** – analyserer endringer og anbefaler optimalt deploy-tidspunkt.  
 
 🔁 **Smart Rollback System** – overvåker feil og utfører automatisk rollback ved kritiske problemer.  
 
 📊 **Deployment Center** – sanntidsdashbord med grafer, logger, notifikasjoner og DevOps-analyse.  
 
-🔒 **Security Layer** – full beskyttelse med proprietary-lisens, secrets-håndtering og audit-logging.
+🔒 **Security Layer** – full beskyttelse med proprietary-lisens og audit-logging.
 
 ---
 
 ## 🧱 Arkitektur
 
-- **Frontend:** Next.js 14 (App Router)  
-- **Backend:** Edge Functions / API Routes  
-- **Database:** PostgreSQL (Neon / Prisma ORM)  
-- **CI/CD:** GitHub Actions → Vercel Deploy  
-- **Security:** Proprietary license, token-isolasjon, access-kontroll  
-- **AI:** LangGraph / Custom logic (Deploy Advisor & Rollback Intelligence)
+- **Frontend:** Modern web framework  
+- **Backend:** Serverless functions / API routes  
+- **Database:** Cloud database  
+- **CI/CD:** Automated deployment pipeline  
+- **Security:** Proprietary license, access-kontroll  
+- **AI:** Custom AI logic for deployment intelligence
 
 Se detaljer: [ARCHITECTURE.md](ARCHITECTURE.md)
 
@@ -43,7 +43,7 @@ Se detaljer: [ARCHITECTURE.md](ARCHITECTURE.md)
 | Funksjon | Beskrivelse |
 |-----------|-------------|
 | **AI Deploy Advisor** | Prediktiv analyse og anbefalt deploy-tidspunkt |
-| **Smart Rollback** | Automatisk rollback ved feil over terskel |
+| **Smart Rollback** | Automatisk rollback ved feil |
 | **Deployment Center** | Full oversikt over status, metrics og historikk |
 | **Metrics & Insights** | Realtime data om byggetid, suksessrate, risiko |
 | **Security System** | PROPRIETARY-beskyttelse og secrets-håndtering |
@@ -69,7 +69,7 @@ All programvare tilhører **© 2025 Cato Hansen.**
 
 **Cato Hansen** – System Architect & Founder  
 
-- AI & Systemutvikling (Next.js, LangGraph, DevOps)  
+- AI & Systemutvikling  
 - 15+ års erfaring innen teknologi og systemarkitektur  
 - CEO – *Hansen Global Solutions / Hansen AI Systems*  
 - 🌐 [www.catohansen.no](https://www.catohansen.no)
@@ -82,8 +82,8 @@ All programvare tilhører **© 2025 Cato Hansen.**
 
 | Komponent | Status |
 |------------|--------|
-| Private Core Repo | 🔒 `catohansen/Nora-AI` |
-| Showcase Repo | 🌍 `catohansen/Nora-AI-Showcase` |
+| Core System | 🔒 Proprietary |
+| Showcase Repo | 🌍 Public |
 | CI/CD Pipeline | ✅ Automatisk |
 | AI Integration | 🤖 Aktiv |
 | Security | 🛡️ Proprietary |

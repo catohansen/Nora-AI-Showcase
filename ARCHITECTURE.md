@@ -9,9 +9,9 @@
 
 ```mermaid
 flowchart LR
-    A[Commit pushed to main] --> B[GitHub Actions CI/CD]
-    B --> C[Build & Lint]
-    C --> D[Deploy to Vercel]
+    A[Commit pushed to main] --> B[CI/CD Pipeline]
+    B --> C[Build & Test]
+    C --> D[Deploy to Cloud]
     D --> E[Deployment Center Dashboard]
     E --> F[AI Deploy Advisor ↔ Smart Rollback System]
     F --> G[Monitoring & Notifications]
@@ -32,7 +32,7 @@ Systemet er modulært, AI-drevet og bygd for full automasjon.
 │                                                           │
 │  ┌──────────────┐         ┌──────────────┐            │
 │  │  AI Engine   │─────────▶│  Agents      │            │
-│  │  (Core)      │         │  (7 types)   │            │
+│  │  (Core)      │         │  (Multiple)  │            │
 │  └──────┬───────┘         └──────────────┘            │
 │         │                                                │
 │  ┌──────▼───────┐         ┌──────────────┐            │
@@ -55,14 +55,14 @@ Systemet er modulært, AI-drevet og bygd for full automasjon.
 ### CI/CD Pipeline
 
 ```
-Developer → GitHub → GitHub Actions → Vercel → Production
-    │         │            │            │          │
-    │         │            │            │          │
-    └─────────┴────────────┴────────────┴──────────┘
-              │
-              ▼
-      Deployment Center
-      (Monitoring & Control)
+Developer → Version Control → CI/CD Pipeline → Cloud Platform → Production
+    │              │                │                │              │
+    │              │                │                │              │
+    └──────────────┴────────────────┴────────────────┴──────────────┘
+                              │
+                              ▼
+                      Deployment Center
+                      (Monitoring & Control)
 ```
 
 ---
@@ -71,13 +71,15 @@ Developer → GitHub → GitHub Actions → Vercel → Production
 
 ### Agent Types
 
-1. **Financial Agent** - Economic advice and budget planning
-2. **Verge Agent** - Guardian support and assistance
-3. **Coach Agent** - Life coaching and motivation
-4. **Dev Agent** - Developer assistance
-5. **Marketer Agent** - Marketing support
-6. **System-Architect Agent** - System design
-7. **General Agent** - Universal AI assistant
+Systemet bruker flere spesialiserte AI-agenter for ulike oppgaver:
+
+- **Financial Agent** - Economic advice and budget planning
+- **Verge Agent** - Guardian support and assistance
+- **Coach Agent** - Life coaching and motivation
+- **Dev Agent** - Developer assistance
+- **Marketer Agent** - Marketing support
+- **System-Architect Agent** - System design
+- **General Agent** - Universal AI assistant
 
 ---
 
@@ -103,7 +105,7 @@ Client Request → API Gateway → Agent Router → AI Engine → Response
 2. **API Security** - API key authentication
 3. **Data Security** - Encrypted storage
 4. **Network Security** - HTTPS only
-5. **Access Control** - PBAC (Policy-Based Access Control)
+5. **Access Control** - Policy-based access control
 
 ---
 
@@ -113,12 +115,11 @@ Client Request → API Gateway → Agent Router → AI Engine → Response
 
 - **Horizontal Scaling** - Multiple instances
 - **Database Scaling** - Read replicas
-- **Caching** - Redis/Memory cache
+- **Caching** - Distributed cache
 - **CDN** - Edge distribution
-- **Load Balancing** - Automatic via Vercel
+- **Load Balancing** - Automatic load balancing
 
 ---
 
 **Programmert med ❤️ av Cato Hansen**  
 **Copyright © 2025 Cato Hansen. All rights reserved.**
-
