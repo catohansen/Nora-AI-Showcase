@@ -1,188 +1,108 @@
-# 💠 Nora AI - Showcase Repository
+# 💠 NORA AI – Intelligent DevOps Platform
 
-**Public Portfolio & Documentation**
+**⚙️ Proprietary Enterprise System – Showcase Edition**
 
-This is a showcase repository for **Nora AI** - an enterprise-grade AI SaaS platform that powers the Hansen Global ecosystem.
+> AI-drevet DevOps, sikkerhetsarkitektur og selvhelbredende infrastruktur.  
+> Utviklet av **Cato Hansen**, System Architect & Founder.
 
----
-
-## ⚠️ IMPORTANT
-
-**This is a PUBLIC showcase repository.**  
-**No actual code or sensitive information is included.**  
-**This repository is for demonstration purposes only.**
-
-**The actual codebase is in a PRIVATE repository:** `catohansen/Nora-AI`
+![Nora AI Banner](assets/banner.png)
 
 ---
 
-## 🎯 WHAT IS NORA AI?
+## 🚀 Hva er Nora AI?
 
-**Nora AI** is an enterprise-grade AI SaaS platform that:
+**Nora AI** er en autonom DevOps-plattform med innebygd AI-analyse, kontinuerlig distribusjon og selv-optimalisering.  
 
-- 🧠 **Universal AI Engine** - 7 specialized agents (Financial, Verge, Coach, Dev, Marketer, System-architect, General)
-- 🔄 **Auto-Sync System** - Automatic distribution to all clients
-- 📊 **Multi-Tenant Architecture** - Client management and license system
-- 🛡️ **Enterprise Security** - API key authentication, PBAC, rate limiting
-- 🚀 **CI/CD Pipeline** - Automated deployment with GitHub Actions & Vercel
-- 📈 **Deployment Center** - Complete DevOps dashboard with AI-powered recommendations
+Systemet bygger, deployer, overvåker og forbedrer seg selv – alt i sanntid.
 
----
+🧠 **AI Deploy Advisor** – analyserer endringer, vurderer risiko og anbefaler optimalt deploy-tidspunkt.  
 
-## 🏗️ ARCHITECTURE
+🔁 **Smart Rollback System** – overvåker feil og utfører automatisk rollback ved kritiske problemer.  
 
-### High-Level Architecture
+📊 **Deployment Center** – sanntidsdashbord med grafer, logger, notifikasjoner og DevOps-analyse.  
 
-```
-┌─────────────────┐
-│  Nora AI Core   │
-│  (AI Engine)    │
-└────────┬────────┘
-         │
-    ┌────┴────┐
-    │         │
-┌───▼───┐ ┌──▼───┐
-│Client │ │Client│
-│   A   │ │   B  │
-└───────┘ └──────┘
-```
-
-### Technology Stack
-
-- **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS
-- **Backend:** Next.js API Routes, Prisma ORM
-- **Database:** PostgreSQL (Multi-tenant)
-- **AI:** Google AI, OpenAI
-- **Deployment:** Vercel, GitHub Actions
-- **Monitoring:** Custom Deployment Center
+🔒 **Security Layer** – full beskyttelse med proprietary-lisens, secrets-håndtering og audit-logging.
 
 ---
 
-## 🚀 DEPLOYMENT PIPELINE
+## 🧱 Arkitektur
 
-### Automated CI/CD Flow
+- **Frontend:** Next.js 14 (App Router)  
+- **Backend:** Edge Functions / API Routes  
+- **Database:** PostgreSQL (Neon / Prisma ORM)  
+- **CI/CD:** GitHub Actions → Vercel Deploy  
+- **Security:** Proprietary license, token-isolasjon, access-kontroll  
+- **AI:** LangGraph / Custom logic (Deploy Advisor & Rollback Intelligence)
 
-```
-Developer Push → GitHub Actions → Build & Test → Deploy to Vercel → Production
-```
-
-**Features:**
-- ✅ Automatic deployment on push to `main`
-- ✅ Build & test before deployment
-- ✅ Security scanning (CodeQL, npm audit)
-- ✅ Dependabot for dependency updates
-- ✅ AI-powered deployment recommendations
-- ✅ Smart rollback system
+Se detaljer: [ARCHITECTURE.md](ARCHITECTURE.md)
 
 ---
 
-## 📊 KEY FEATURES
+## 🧩 Hovedfunksjoner
 
-### 1. Universal AI Engine
-- 7 specialized agents
-- Multi-provider support (Google AI, OpenAI)
-- Adaptive learning
-- Context awareness
+| Funksjon | Beskrivelse |
+|-----------|-------------|
+| **AI Deploy Advisor** | Prediktiv analyse og anbefalt deploy-tidspunkt |
+| **Smart Rollback** | Automatisk rollback ved feil over terskel |
+| **Deployment Center** | Full oversikt over status, metrics og historikk |
+| **Metrics & Insights** | Realtime data om byggetid, suksessrate, risiko |
+| **Security System** | PROPRIETARY-beskyttelse og secrets-håndtering |
+| **Automatisk Deployment** | Push → Build → Deploy → Monitor |
 
-### 2. Multi-Tenant Architecture
-- Client management
-- License system (free, pro, enterprise)
-- Usage tracking
-- Audit logging
-
-### 3. Deployment Center
-- Live status monitoring
-- AI Deploy Advisor
-- Smart Rollback
-- Performance graphs
-- Activity timeline
-
-### 4. Enterprise Security
-- Private repository
-- API key authentication
-- Rate limiting
-- Security scanning
+Se full oversikt: [FEATURES.md](FEATURES.md)
 
 ---
 
-## 📈 USE CASES
+## 🔒 Sikkerhet og lisens
 
-### 1. Pengeplan 2.0
-- Financial AI agent
-- Budget planning
-- Expense tracking
-- Savings coaching
+Dette repoet er kun for **presentasjonsformål**.  
 
-### 2. Resilient13
-- Mental health support
-- Recovery coaching
-- Stress management
-- NLP therapy
+Ingen kildekode fra det private systemet er inkludert.  
 
-### 3. Hansen Security
-- Security analysis
-- Threat detection
-- Compliance monitoring
+All programvare tilhører **© 2025 Cato Hansen.**
+
+📜 Lisens: [LICENSE](LICENSE)
 
 ---
 
-## 🛠️ TECHNICAL SPECIFICATIONS
+## 👨‍💻 Om utvikleren
 
-### System Requirements
-- Node.js 20+
-- PostgreSQL database
-- Vercel account (for deployment)
-- GitHub account (for CI/CD)
+**Cato Hansen** – System Architect & Founder  
 
-### API Endpoints
-- `/api/nora/chat` - Chat API
-- `/api/nora/memory` - Memory API
-- `/api/nora/status` - Status API
-- `/api/deploy/status` - Deployment status
-- `/api/deploy/advisor` - AI deployment recommendations
+- AI & Systemutvikling (Next.js, LangGraph, DevOps)  
+- 15+ års erfaring innen teknologi og systemarkitektur  
+- CEO – *Hansen Global Solutions / Hansen AI Systems*  
+- 🌐 [www.catohansen.no](https://www.catohansen.no)
+
+**Kontakt:** cato@catohansen.no
 
 ---
 
-## 📚 DOCUMENTATION
+## 📈 Status
 
-### For Developers
-- **Architecture:** See architecture diagrams
-- **API:** See API documentation
-- **Deployment:** See deployment pipeline overview
-
-### For Business
-- **Features:** See feature overview
-- **Use Cases:** See use cases
-- **Pricing:** Contact for pricing information
+| Komponent | Status |
+|------------|--------|
+| Private Core Repo | 🔒 `catohansen/Nora-AI` |
+| Showcase Repo | 🌍 `catohansen/Nora-AI-Showcase` |
+| CI/CD Pipeline | ✅ Automatisk |
+| AI Integration | 🤖 Aktiv |
+| Security | 🛡️ Proprietary |
 
 ---
 
-## 🔒 SECURITY & PRIVACY
+## 🪄 Visjon
 
-- ✅ Private codebase (not in this repository)
-- ✅ PROPRIETARY license
-- ✅ Enterprise-grade security
-- ✅ GDPR compliant
-- ✅ Audit logging
+> Nora AI skal bli en **selvtenkende DevOps-partner** som gir utviklere, selskaper og gründere total kontroll, trygghet og automasjon – uten kompleksitet.
 
 ---
 
-## 📧 CONTACT
+## 📚 Dokumentasjon
 
-**Developer:** Cato Hansen  
-**Email:** cato@catohansen.no  
-**Website:** https://nora.catohansen.no
-
----
-
-## 📄 LICENSE
-
-**PROPRIETARY** - Copyright © 2025 Cato Hansen. All rights reserved.
-
-This showcase repository is for demonstration purposes only.  
-The actual codebase is proprietary and confidential.
+- [ARCHITECTURE.md](ARCHITECTURE.md) – Systemarkitektur og teknisk oversikt
+- [FEATURES.md](FEATURES.md) – Detaljert funksjonsoversikt
+- [LICENSE](LICENSE) – Showcase License
 
 ---
 
-**Programmert med ❤️ av Cato Hansen**
-
+**Programmert med ❤️ av Cato Hansen**  
+**Copyright © 2025 Cato Hansen. All rights reserved.**
