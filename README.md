@@ -6,7 +6,7 @@
 > Utviklet av **Cato Hansen**, System Architect & Founder.
 
 <div align="center">
-  <img src="assets/hero-banner.png" alt="Nora AI Hero Banner" width="100%" style="max-width: 1280px;">
+  <img src="assets/hero-banner.svg" alt="Nora AI Hero Banner" width="100%" style="max-width: 1280px;">
 </div>
 
 ---
