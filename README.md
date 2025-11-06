@@ -5,7 +5,9 @@
 > AI-drevet DevOps, sikkerhetsarkitektur og selvhelbredende infrastruktur.  
 > Utviklet av **Cato Hansen**, System Architect & Founder.
 
-![Nora AI Hero Banner](assets/hero-banner.png)
+<div align="center">
+  <img src="assets/hero-banner.png" alt="Nora AI Hero Banner" width="100%" style="max-width: 1200px;">
+</div>
 
 ---
 
@@ -108,13 +110,17 @@ All programvare tilhører **© 2025 Cato Hansen.**
 
 ### Deployment Center Dashboard
 
-![Deployment Center](assets/control-room.png)
+<div align="center">
+  <img src="assets/control-room.png" alt="Deployment Center" width="100%" style="max-width: 1200px;">
+</div>
 
 *Sanntids monitoring og kontroll av DevOps-pipeline*
 
 ### Development Workspace
 
-![Development Workspace](assets/working-desk.png)
+<div align="center">
+  <img src="assets/working-desk.png" alt="Development Workspace" width="100%" style="max-width: 1200px;">
+</div>
 
 *AI-drevet utviklingsmiljø med intelligent analyse*
 
