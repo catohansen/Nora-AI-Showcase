@@ -1,7 +1,23 @@
-# 🏗️ Nora AI - Architecture Overview
+# 🧱 Nora AI – Systemarkitektur
 
 **Dato:** 2025-01-21  
 **Status:** High-Level Architecture Documentation
+
+---
+
+## 🔄 DEPLOYMENT PIPELINE
+
+```mermaid
+flowchart LR
+    A[Commit pushed to main] --> B[GitHub Actions CI/CD]
+    B --> C[Build & Lint]
+    C --> D[Deploy to Vercel]
+    D --> E[Deployment Center Dashboard]
+    E --> F[AI Deploy Advisor ↔ Smart Rollback System]
+    F --> G[Monitoring & Notifications]
+```
+
+Systemet er modulært, AI-drevet og bygd for full automasjon.
 
 ---
 

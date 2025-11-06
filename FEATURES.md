@@ -48,11 +48,11 @@
 - Performance monitoring
 
 ### AI-Powered Deployment
-- Risk assessment
-- Deployment recommendations
-- Optimal timing suggestions
-- Success probability prediction
-- Smart rollback decisions
+- **AI Deploy Advisor** – Prediktiv analyse og anbefalt deploy-tidspunkt
+- **Risk Assessment** – Vurder risiko basert på code changes
+- **Deployment Recommendations** – Optimal timing suggestions
+- **Success Probability** – Forutsi suksessrate basert på historikk
+- **Smart Rollback** – Automatisk rollback ved feil over terskel
 
 ---
 
@@ -62,9 +62,10 @@
 - Private repository
 - API key authentication
 - Rate limiting
-- Security scanning
+- Security scanning (CodeQL, npm audit)
 - Audit logging
 - GDPR compliance
+- PROPRIETARY license protection
 
 ---
 
@@ -76,17 +77,37 @@
 - Error monitoring
 - Usage analytics
 - Cost tracking
+- Build time history
+- Success rate tracking
 
 ---
 
 ## 🔌 INTEGRATIONS
 
 ### Supported Integrations
-- GitHub Actions
-- Vercel
-- Email (SMTP)
-- Slack
-- Stripe/Vipps (Payments)
+- **GitHub Actions** – CI/CD automation
+- **Vercel** – Edge deployment
+- **Email (SMTP)** – Notifications
+- **Slack** – Team notifications
+- **Stripe/Vipps** – Payment processing
+
+---
+
+## 🧩 AI FEATURES
+
+### AI Deploy Advisor
+- Analyserer code changes
+- Vurderer risiko (low/medium/high)
+- Anbefaler optimalt deploy-tidspunkt
+- Predikerer suksessrate
+- Gir warnings og suggestions
+
+### Smart Rollback System
+- Overvåker deployment failures
+- Automatisk rollback ved terskel
+- Konfigurerbar failure threshold
+- Critical error detection
+- Failure tracking over tid
 
 ---
 
