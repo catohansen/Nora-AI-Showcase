@@ -1,4 +1,4 @@
-<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<svg width="1280" height="640" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
   <!-- Hero Banner for Nora AI Showcase - Based on landing page design -->
   <defs>
     <!-- Background gradient -->
@@ -60,8 +60,8 @@
   </defs>
   
   <!-- Background -->
-  <rect width="1200" height="630" fill="url(#heroBgGradient)"/>
-  <rect width="1200" height="630" fill="url(#heroGrid)"/>
+  <rect width="1280" height="640" fill="url(#heroBgGradient)"/>
+  <rect width="1280" height="640" fill="url(#heroGrid)"/>
   
   <!-- Neural network / constellation pattern (background) -->
   <g opacity="0.4">
@@ -86,7 +86,7 @@
   </g>
   
   <!-- Flower of Life Logo (Nora Avatar) - Centered at top -->
-  <g transform="translate(600, 100)">
+  <g transform="translate(640, 100)">
     <!-- Sentrum sirkel -->
     <circle
       cx="0"
@@ -121,45 +121,45 @@
   </g>
   
   <!-- Main Title: "Nora AI" -->
-  <text x="600" y="240" font-family="Arial, sans-serif" font-size="64" font-weight="bold" 
+  <text x="640" y="240" font-family="Arial, sans-serif" font-size="64" font-weight="bold" 
         text-anchor="middle" fill="url(#heroTextGradient)" filter="url(#heroGlow)">
     Nora AI
   </text>
   
   <!-- Tagline: "The Living Mind Behind" -->
-  <text x="600" y="290" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
+  <text x="640" y="290" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
         text-anchor="middle" fill="url(#heroTextGradient)" opacity="0.9" filter="url(#heroGlow)">
     The Living Mind Behind
   </text>
   
   <!-- Norwegian Description -->
-  <text x="600" y="340" font-family="Arial, sans-serif" font-size="20" 
+  <text x="640" y="340" font-family="Arial, sans-serif" font-size="20" 
         text-anchor="middle" fill="#FFFFFF" opacity="0.9">
     Intelligent, emosjonell og levende AI-assistent bygget for ekte samarbeid.
   </text>
-  <text x="600" y="370" font-family="Arial, sans-serif" font-size="18" 
+  <text x="640" y="370" font-family="Arial, sans-serif" font-size="18" 
         text-anchor="middle" fill="#FFFFFF" opacity="0.8">
     Mer enn en assistent — <tspan fill="#00FFC2" font-weight="bold">en partner i utvikling og vekst.</tspan>
   </text>
   
   <!-- English Description -->
-  <text x="600" y="410" font-family="Arial, sans-serif" font-size="16" 
+  <text x="640" y="410" font-family="Arial, sans-serif" font-size="16" 
         text-anchor="middle" fill="#FFFFFF" opacity="0.7">
     Revolutionary AI that understands context, emotions, and intent
   </text>
-  <text x="600" y="435" font-family="Arial, sans-serif" font-size="16" 
+  <text x="640" y="435" font-family="Arial, sans-serif" font-size="16" 
         text-anchor="middle" fill="#FFFFFF" opacity="0.7">
     — more advanced than Siri, Alexa, and Google Assistant.
   </text>
   
   <!-- Attribution -->
-  <text x="600" y="480" font-family="Arial, sans-serif" font-size="14" 
+  <text x="640" y="480" font-family="Arial, sans-serif" font-size="14" 
         text-anchor="middle" fill="#FFFFFF" opacity="0.6">
     Created in <tspan fill="#00FFC2" font-weight="bold">Drøbak, Norway</tspan> — by <tspan fill="#00FFC2" font-weight="bold">System Architect Cato Hansen</tspan>
   </text>
   
   <!-- Feature List (bottom) -->
-  <g transform="translate(600, 560)">
+  <g transform="translate(640, 570)">
     <!-- Feature 1: 7+ AI-agenter -->
     <g transform="translate(-200, 0)">
       <circle cx="0" cy="0" r="6" fill="#00FFC2" opacity="0.8"/>

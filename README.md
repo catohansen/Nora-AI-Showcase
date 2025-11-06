@@ -6,7 +6,7 @@
 > Utviklet av **Cato Hansen**, System Architect & Founder.
 
 <div align="center">
-  <img src="assets/hero-banner.png" alt="Nora AI Hero Banner" width="100%" style="max-width: 1200px;">
+  <img src="assets/hero-banner.png" alt="Nora AI Hero Banner" width="100%" style="max-width: 1280px;">
 </div>
 
 ---
@@ -105,24 +105,6 @@ All programvare tilhører **© 2025 Cato Hansen.**
 - [LICENSE](LICENSE) – Showcase License
 
 ---
-
-## 🎨 Visuell Oversikt
-
-### Deployment Center Dashboard
-
-<div align="center">
-  <img src="assets/control-room.png" alt="Deployment Center" width="100%" style="max-width: 1200px;">
-</div>
-
-*Sanntids monitoring og kontroll av DevOps-pipeline*
-
-### Development Workspace
-
-<div align="center">
-  <img src="assets/working-desk.png" alt="Development Workspace" width="100%" style="max-width: 1200px;">
-</div>
-
-*AI-drevet utviklingsmiljø med intelligent analyse*
 
 ---
 
